@@ -1,5 +1,5 @@
 # Bootcamp
 Bootcamp git live demo
 
-Author: Kyle Burris (kyle.burris@stat.duke.edu)
+Author: Kyle C Burris (kyle.burris@stat.duke.edu)
 
