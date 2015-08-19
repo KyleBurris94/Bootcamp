@@ -1,5 +1,7 @@
 # Bootcamp
 Bootcamp git live demo
 
-Author: Kyle Burris (kyle.burris@stat.duke.edu)
+Author: Kyle C Burris (kyle.burris@stat.duke.edu)
+
+This repo contains materials from bootcamp on August 19
 
