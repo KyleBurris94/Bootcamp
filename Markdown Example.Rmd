@@ -37,5 +37,18 @@ ggplot(data = eu_52, aes(x = gdpPercap, y = lifeExp, color = factor(year))) +
   geom_point()  
 ```
 
+##Exercise 3
+```{r}
+gap_upd <- read.csv(curl("http://bit.ly/gap_data_upd"))
+head(gap_upd)
+```
+
+```{r}
+eu_52_upd <- gap_upd %>%
+  filter(continent == "Europe", year %in% c(1952,1967))
+ggplot(data = eu_52_upd, aes(x = gdpPercap, y = lifeExp, color = factor(year))) +
+  geom_point()  
+```
+
 
 
